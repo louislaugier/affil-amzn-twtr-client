@@ -1,7 +1,7 @@
 function Api() {
     return (
       <>
-        API
+        API docs coming soon!
       </>
     );
   }
