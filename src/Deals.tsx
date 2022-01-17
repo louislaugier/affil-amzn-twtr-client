@@ -27,8 +27,7 @@ function Deals(props: any) {
 
   useEffect(() => {
     const fetchDeals = async () => {
-      let r = await fetch("http://localhost:8080/deals?1=" + randomInt.toString(), {
-      // let r = await fetch("https://api.allorigins.win/raw?url=https://amzn-twtr-affil.herokuapp.com/deals?1=" + randomInt.toString(), {
+      let r = await fetch("https://api.allorigins.win/raw?url=https://amzn-twtr-affil.herokuapp.com/deals?1=" + randomInt.toString(), {
         method: "GET",
         headers: {
           "Content-Type": "application/json"
