@@ -55,7 +55,7 @@ import { LinkIcon } from '@chakra-ui/icons';
                     <Flex justifyContent="space-between" alignContent="center">
                     <Box fontSize="2xl" justifyContent="flex-end" color={useColorModeValue('gray.800', 'white')}>
                         <Box as="span" color={'gray.600'} fontSize="lg">
-                            {props.deals[props.i].timeLeft}
+                            {props.deals[props.i].timeLeft} left
                         </Box>
                         <Flex direction='row' justifyContent='space-between'>
                             <Text>{props.deals[props.i].maxPrice ? "$" + props.deals[props.i].minPrice + " - " + props.deals
